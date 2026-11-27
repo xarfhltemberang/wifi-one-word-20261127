@@ -3,14 +3,13 @@
 Writes a single word describing the entrant's Wi-Fi to /output/entry.txt
 (or $OUTPUT_PATH when set, for local testing).
 
-The word: Flaky. Home Wi-Fi is a flaky friend — there one minute,
-gone the next, always at the worst possible moment, and it only ever
-comes back after you unplug the router and count to ten.
+The word: Ghosting. Home Wi-Fi ghosts you — full bars one minute,
+gone the next with no explanation, then back like nothing happened.
 """
 
 import os
 
-ENTRY_WORD = "Flaky"
+ENTRY_WORD = "Ghosting"
 
 
 def main() -> None:
